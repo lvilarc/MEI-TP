@@ -1,0 +1,37 @@
+Generate unit tests in C for the function that solves the problem described below.
+
+Requirements:
+- Produce exactly 5 test cases covering normal cases, edge cases, and boundary inputs.
+- Use the standard LeetCode C function signature for this problem. Declare the function prototype at the top of the file, but do NOT implement the function body - assume the implementation is provided separately and will be linked in.
+- Output a single self-contained C file containing only: the necessary #includes, the function prototype, and a main() that calls the function and verifies each result using assert() from <assert.h>.
+- Return only the C code, with no explanation.
+
+Problem:
+
+Palindrome Partitioning II
+
+Given a string s, partition s such that every substring of the partition is a palindrome.
+
+Return the minimum cuts needed for a palindrome partitioning of s.
+
+ 
+
+Example 1:
+
+Input: s = "aab"
+Output: 1
+Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.
+Example 2:
+
+Input: s = "a"
+Output: 0
+Example 3:
+
+Input: s = "ab"
+Output: 1
+ 
+
+Constraints:
+
+1 <= s.length <= 2000
+s consists of lowercase English letters only.
