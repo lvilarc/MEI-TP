@@ -49,5 +49,8 @@ Log recording file initiation and initial completion
 09/06/2026 João Lino
 Completed individual log entries
 
+09/06/2026 João Lino
+Test case generation for Python (20 problems, GPT5.5 and Claude Sonnet 4.6). Created test_cases/python/ with prompts, reference solutions, gpt/ and claude/ test suites, and run_experiment.py harness. All 40 test suites pass.
+
 09/06/2026 All members
 Report writing with the work done individualy by each member

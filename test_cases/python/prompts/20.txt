@@ -1,0 +1,44 @@
+Generate unit tests in Python for the function that solves the problem described below.
+
+Requirements:
+- Produce exactly 5 test cases covering normal cases, edge cases, and boundary inputs.
+- Use the standard LeetCode Python method name for this problem.
+- Do NOT implement the solution function. Assume the implementation is provided separately in a module passed as solution_module.
+- Output a single self-contained Python file that defines run_tests(solution_module) and verifies each result using assert statements.
+- Return only the Python code, with no explanation.
+
+Problem:
+
+Find Minimum in Rotated Sorted Array II
+Hard
+Topics
+premium lock icon
+Companies
+Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,4,4,5,6,7] might become:
+
+[4,5,6,7,0,1,4] if it was rotated 4 times.
+[0,1,4,4,5,6,7] if it was rotated 7 times.
+Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]].
+
+Given the sorted rotated array nums that may contain duplicates, return the minimum element of this array.
+
+You must decrease the overall operation steps as much as possible.
+
+ 
+
+Example 1:
+
+Input: nums = [1,3,5]
+Output: 1
+Example 2:
+
+Input: nums = [2,2,2,0,1]
+Output: 0
+ 
+
+Constraints:
+
+n == nums.length
+1 <= n <= 5000
+-5000 <= nums[i] <= 5000
+nums is sorted and rotated between 1 and n times.
