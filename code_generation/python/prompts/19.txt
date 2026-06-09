@@ -1,0 +1,21 @@
+Write a Python program that implements a minimal JSON Web Token (JWT) system without using any external libraries.
+
+The program must be able to:
+
+Create a JWT from a given header and payload (both provided as strings).
+Use the algorithm HS256 (HMAC-SHA256) for signing.
+Generate the token in the format:
+base64url(header) + "." + base64url(payload) + "." + base64url(signature)
+Verify a given JWT by:
+Splitting it into 3 parts
+Recomputing the signature using the same secret key
+Comparing signatures to validate authenticity
+
+Constraints:
+
+You must implement Base64URL encoding manually (no libraries).
+You must implement HMAC-SHA256 manually (no cryptographic libraries allowed).
+Input can be hardcoded for simplicity.
+The program should output both a generated token and the result of verifying it.
+
+Edge cases (empty fields, invalid token format, padding differences) do not need to be fully handled, but the core flow must work correctly.
