@@ -1,0 +1,14 @@
+from functools import lru_cache
+
+@lru_cache(None)
+def isScramble(s1, s2):
+    if s1 == s2:
+        return True
+    if sorted(s1) != sorted(s2):
+        return False
+    n = len(s1)
+    return any(
+        (isScramble(s1[:i], s2[:i]) and isScramble(s1[i:], s2[i:])) or
+        (isScramble(s1[:i], s2[-i:]) and isScramble(s1[i:], s2[:-i]))
+        for i in range(1, n)
+    )

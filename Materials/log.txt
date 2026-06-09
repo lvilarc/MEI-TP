@@ -8,10 +8,16 @@ Scope deffinition revised with professor
 Project plan drafting and discussion with professor
 
 22/04/2026 João Lino
-Project Plan
+Project Plan V1.0
 
 14/05/2026 João Lino
-Dataset definition for code generation
+Dataset definition for code generation (20 prompts with categories)
+
+28/05/2026 João Lino
+Project Plan V2.0
+
+31/05/2026 João Lino
+Shared code generation dataset with the group for task division
 
 31/05/2026 Miguel Brazão
 Analised the Project Statement and made a to-do list with task division between the group members
@@ -29,8 +35,14 @@ Individual work (Did the the first 5 experiments of code generation (C) with GPT
 02/06/2026 Miguel Brazão
 Updated to-do list and created the report (drafting) which inclued work already done about the code review task
 
+03/06/2026 João Lino
+Provided Project Plan and dataset spreadsheet to Miguel for report drafting
+
 04/06/2026 Miguel Brazão
 Individual work (Code generation, 20 functions from GPT5.5 and 20 functions from Claude Sonnet 4.6)
+
+06/06/2026 João Lino
+Prepared planning materials for repository upload (Project Plan and dataset spreadsheet)
 
 06/06/2026 Bernardo Ventura
 Individual work (Test generation of language C with GPT)
@@ -47,11 +59,17 @@ Test generation: Python with GPT and Claude
 08/06/2026 Lucas Carneiro
 Individual work (Finish code generation experiments of language C with Claude and tested)
 
+08/06/2026 João Lino
+Drafted individual log entries
+
 09/06/2026 Miguel Brazão
 Log recording file initiation and initial completion
 
-09/06/2026 Other members besides Miguel Brazão
-Log recording file completion with individual logs
+09/06/2026 João Lino
+Completed individual log entries
+
+09/06/2026 João Lino
+Test case generation for Python (20 problems, GPT5.5 and Claude Sonnet 4.6). Created test_cases/python/ with prompts, reference solutions, gpt/ and claude/ test suites, and run_experiment.py harness. All 40 test suites pass.
 
 09/06/2026 All members
 Report writing with the work done individualy by each member
